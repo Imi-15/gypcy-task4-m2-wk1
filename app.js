@@ -68,7 +68,7 @@ function deleteTask (id) {
 
 //
 function updateCount () {
-    const remaining = tasks.filter((t) => !t.done).lenght
+    const remaining = tasks.filter((t) => !t.done).length
     taskCount.textContent = `${remaining !== 1 ? 's' : ''} remaining`
 }
 
